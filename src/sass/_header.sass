@@ -1,0 +1,40 @@
+.header
+    padding-top: rems(15)
+    .container
+        justify-content: space-between
+        align-items: center
+        .logo
+            .logo_img
+        .wrap-menu
+            padding-right: rems(13)
+            display: flex
+            flex-direction: row
+            justify-content: flex-start
+            align-items: center
+            flex-wrap: nowrap
+            flex-basis: 700px
+            .menu
+                flex-basis: 545px
+                display: flex
+                flex-direction: row
+                justify-content: space-around
+                align-items: stretch
+                flex-wrap: nowrap
+                .menu-item
+                    align-self: auto
+                    order: 0
+                    flex-basis: auto
+                    flex-grow: 0
+                    flex-shrink: 1
+                    position: relative
+                    &::after
+                        cursor: pointer
+                        content: ''
+                        width: 10px
+                        height: 6px
+                        transform: translateX(5px) translateY(6px)
+                        position: absolute
+                        background: url('../img/header/arrows.svg') 0 0 no-repeat
+            .header-button
+                flex: 1 0 auto
+                margin-left: rems(32)

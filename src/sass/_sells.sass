@@ -1,0 +1,69 @@
+.cumstom-sells
+    padding: rems(160) 0
+    background-color: #fff
+    color: #000
+    .container
+        flex-direction: column
+        .cumstom-sells__pretitle
+            font-size: rems(12)
+            letter-spacing: rems(2)
+            text-transform: uppercase
+        .cumstom-sells__title
+            font-size: rems(72)
+            line-height: rems(86)
+            max-width: 654px
+            margin-top: rems(20)
+        .cumstom-sells__pictures
+            display: flex
+            flex-direction: row
+            align-items: center
+            .cumstom-sells__pictures__first
+                
+                align-self: flex-start
+                order: 0 
+                flex-basis: auto 
+                flex-grow: 0 
+                flex-shrink: 1 
+            .second_block
+                display: flex
+                flex-direction: column
+                .text
+                    max-width: 493px
+                    font-size: rems(24)
+                    line-height: rems(36)
+                    margin-bottom: rems(96)
+                    padding-left: rems(35)
+                .cumstom-sells__pictures__second
+
+        .privilege
+            padding-top: rems(140)
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            // align-items: center
+            .privilege-block
+                flex-basis: 29%
+                .privilege-block__title
+                    margin-bottom: rems(24)
+                    font-size: rems(36)
+                    line-height: rems(47)
+                    &::before
+                        content: ''
+                        display: block
+                        width: 36px
+                        height: 36px
+                        background-color: #000
+                        border-radius: 50%
+                        margin-bottom: rems(12)
+                    &.cream
+                        &::before
+                            background-color: #FCECDC
+                    &.blue
+                        &::before
+                            background-color: #EAF4FC
+                    &.pink
+                        &::before
+                            background-color: #FBEDF1
+                .privilege-block__text
+                    font-size: rems(16)
+                    line-height: rems(26)

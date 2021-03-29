@@ -1,0 +1,52 @@
+.exclusive
+    padding-bottom: rems(230)
+    padding-top: rems(230)
+    .container
+        justify-content: space-around
+        .exclusive__content
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            flex-basis: 50%
+            order: 2
+
+            .exclusive__pre-title
+                font-size: rems(12)
+                text-transform: uppercase
+                letter-spacing: rems(2)
+            .exclusive__title
+                margin-top: 0
+                text-align: center
+                font-size: rems(72)
+                line-height: rems(86)
+                max-width: 310px
+            .exclusive__text
+                font-size: rems(24)
+                line-height: rems(36)
+                text-align: center
+                color: #BABABA
+
+        .exclusive__block-first
+            flex-wrap: wrap
+            display: flex
+            flex-basis: 224px
+            order: 1
+            align-items: center
+            justify-content: center
+            .exclusive__block-first__item
+                margin-right: rems(45)
+                margin-bottom: rems(74)
+        .exclusive__block-second
+            flex-wrap: wrap
+            display: flex
+            max-width: 224px
+            order: 3
+            align-items: center
+            justify-content: space-between
+            .exclusive__block-second__item
+                margin-right: rems(40)
+                margin-bottom: rems(74)
+            .exclusive__block-second__item.flag
+                flex-basis: 10%
+                transform: translateX(25px)

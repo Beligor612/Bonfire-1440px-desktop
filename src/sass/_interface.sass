@@ -1,0 +1,41 @@
+.button
+    padding: rems(12) rems(15)
+    text-align: center
+    border-radius: 5px
+    text-transform: uppercase
+    font-size: rems(10)
+    line-height: rems(10.8)
+    letter-spacing: rems(1.6)
+    cursor: pointer
+    transition: $transition-all
+    &-solid
+        background-color: #fff
+        border: 2px solid transparent
+        &:hover
+            background-color: transparent
+            border: 2px solid $color-grey
+            color: #fff
+    &-outline
+        background-color: transparent
+        border: 2px solid $color-grey
+        color: #fff
+        &:hover
+            border: 2px solid #fff
+
+
+.wrap-menu
+    .menu
+        list-style: none
+        .menu-item
+            
+            a
+                transition: $transition-all
+                color: #fff
+                text-decoration: none
+                &:hover
+                    color: $color-grey
+
+.container
+    padding-left: rems(95)
+    padding-right: rems(95)
+    display: flex

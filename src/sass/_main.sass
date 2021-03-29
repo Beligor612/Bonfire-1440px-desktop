@@ -1,0 +1,63 @@
+.main
+    padding-bottom: rems
+    .container
+        flex-direction: column
+        align-items: center
+        .main-title
+            font-size: rems(157)
+            line-height: rems(163)
+            background: $color-gradient
+            display: table
+            color: #0B2349
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            max-width: 941px
+            align-self: start
+        .main-galary
+            display: flex
+            flex-direction: row 
+            min-height: 441px
+            .main-galary_item
+                margin-right: rems(36)
+                transition: $transition-all
+                &:hover
+                    transform: translateY(-25px)
+                img
+                    border-radius: 30px
+            .item-1
+                align-self: flex-start
+            .item-2
+                align-self: center
+            .item-3
+                align-self: flex-end
+            .item-4
+                align-self: center
+            .item-5
+                align-self: flex-start
+        .main-access
+            display: flex
+            flex-direction: column
+            align-items: center
+            .main-access_title
+                font-size: rems(36)
+                line-height: rems(58)
+                text-align: center
+                background: $color-gradient
+                display: table
+                color: #0B2349
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                align-self: start
+                max-width: 742px
+            .main-access-button
+        .card-galary
+            margin-top: rems(120)
+            padding-bottom: rems(120)
+            .card-galary_item
+                &.first
+                    display: block
+                    transform: translateX(-250px) translateY(-100px)
+                &.second
+                    display: block
+                    border-radius: 30px
+                    transform: translateX(250px) 
